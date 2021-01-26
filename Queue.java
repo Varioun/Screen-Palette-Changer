@@ -51,4 +51,8 @@ public class Queue<N> {
         tail = null;
         head = null;
     }
+    
+    public N getTail() {
+        return tail.getData(); // quick change for lab
+    }
 }
